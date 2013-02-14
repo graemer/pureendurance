@@ -1,4 +1,11 @@
 Pureendurance::Application.routes.draw do
+
+root                to: 'static_pages#home'
+ 
+match '/team',      to: 'static_pages#team'
+match '/blog',      to: 'static_pages#blog'
+match '/calendar',  to: 'static_pages#calendar'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
