@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Carousel Template &middot; Bootstrap</title>
+    <title>Pure Endurance - Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -80,7 +80,7 @@
 
     .carousel .container {
       position: relative;
-      z-index: 9;
+      z-index: 8;
     }
 
     .carousel-control {
@@ -90,7 +90,7 @@
       text-shadow: 0 1px 1px rgba(0,0,0,.4);
       background-color: transparent;
       border: 0;
-      z-index: 10;
+      z-index: 9;
     }
 
     .carousel .item {
@@ -255,6 +255,36 @@
       }
 
     }
+
+    @media (max-width: 600px) {
+
+
+      .carousel .item {
+        height: 250px;
+      }
+      .carousel img {
+        height: 250px;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 45px;
+      }
+      .carousel-caption h1 {
+        font-size: 25px;
+      }
+      .carousel-caption .lead{
+        font-size: 18px;
+      }
+      .carousel-caption .btn {
+        visibility: hidden;
+      }
+
+      .marketing h2 {
+      font-size: 25px;
+    }
+
+    }
     </style>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -262,12 +292,15 @@
       <script src="../assets/js/html5shiv.js"></script>
     <![endif]-->
 
-    <!-- Fav and touch icons -->
+    <!-- Fav and touch icons 
+    
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+    
+    -->
   </head>
 
   <body>
